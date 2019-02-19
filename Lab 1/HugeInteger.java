@@ -1,6 +1,6 @@
 /*
  * Program created by Sharjil Mohsin
- * Created on January 28, 2019
+ * Created and finished on January 28, 2019
  * Made for a lab assignment at McMaster University
  */
 package lab.pkg1;
