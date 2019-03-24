@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Program created by Sharjil Mohsin
+ * Created and finished on April 1, 2019
+ * Made for a lab assignment at McMaster University
  */
 package lab.pkg2;
 
