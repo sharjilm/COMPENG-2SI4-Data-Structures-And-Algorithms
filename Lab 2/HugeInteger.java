@@ -974,13 +974,17 @@ public class HugeInteger {
                 hZeroCounter++;
             }
         }
+     
+        if(thisZeroCounter == this.size && hZeroCounter == h.size){
+            throw new ArithmeticException("Undefined: Zero divided by zero not possible.");
+        }
         
         if(thisZeroCounter == this.size){
             return new HugeInteger("0");
         }
         
         if(hZeroCounter == h.size){
-            throw new ArithmeticException("Division by zero, not possible.");
+            throw new ArithmeticException("Undefined: Division by zero not possible.");
         }
         
         if(this.size < h.size){
